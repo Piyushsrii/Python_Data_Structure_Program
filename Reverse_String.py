@@ -9,4 +9,6 @@ class ReverseString: # define class of this program
             revStr += strVal[index - 1]
             index = index - 1
         return revStr
-
+stringData = ReverseString()
+strVal = input("Enter a String To Reverse : ")
+print("Reverse String : ",stringData.toReverse(strVal))

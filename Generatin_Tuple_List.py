@@ -3,10 +3,10 @@ and generate a list and a tuple with those numbers.'''
 class SpecStringPart:
     def chkSpecCharacter(self,strVal):
         '''
-        :param self:
-        :param strVal:
-        :return:
-        '''
+              :param self:
+              :param strVal:
+              :return:
+               '''
         l = strVal.split(",")
         t = tuple(l)
         print(l)

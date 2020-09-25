@@ -3,6 +3,11 @@ reverse order with a space between them.'''
 class ReverseString: # define class of this program
 
     def toReverse(self,strVal): # Define here user define function and using variables revStr and index
+        '''
+        :param self:
+        :param strVal:
+        :return:
+        '''
         revStr = ''
         index = len(strVal)
         while index > 0:        # Using while loop for reverse the value

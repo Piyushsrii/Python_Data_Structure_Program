@@ -12,5 +12,7 @@ def is_group_member(group_data, n):
         if n == value:
             return True
     return False
-print(is_group_member([1, 5, 8, 3], 3))
-print(is_group_member([5, 8, 3], -1))
+n1=int(input("Enter the value"))
+n2=int(input("Enter the value"))
+print(is_group_member([1, 5, 8, 3], n1))
+print(is_group_member([5, 8, 3], n2))

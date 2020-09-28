@@ -1,9 +1,7 @@
 '''Write a Python program to get the number of occurrences of a specified element in an
 array.'''
-
-
 class OccurenceInArray:
-    def countOccurence(self, arrOfNUm, value):
+    def countOccurence(self, arrOfNum, value):
         '''
             :param:self
             :param:arrOfNUm
@@ -11,7 +9,7 @@ class OccurenceInArray:
             :return:
             '''
         print("Original array: " + str(arrOfNum))
-        print("Number of occurrences of the number ", value, " in array: " + str(arrOfNUm.count(value)))
+        print("Number of occurrences of the number ", value, " in array: " + str(arrOfNum.count(value)))
 arr = OccurenceInArray()
 rangeVal = int(input("Enter The range of value you want to enter : "))
 arrOfNum = []

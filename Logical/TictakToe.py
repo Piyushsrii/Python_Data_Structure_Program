@@ -31,14 +31,14 @@ def print_board():
 
 
 # Selecting 'X' or 'O' Automatically
-'''def select_char():
+def select_char():
     chars = ('X', 'O')
     if random.randint(0, 1) == 0:
         return chars[::-1]
     return chars
 
 
-# Checking for the Move
+'''# Checking for the Move
 def can_move(brd, player, move):
     if move in tab and brd[move - 1] == move - 1:
         return True

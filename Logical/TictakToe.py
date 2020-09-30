@@ -45,7 +45,7 @@ def can_move(brd, player, move):
     return False
 
 
-'''# Winning Availability
+# Winning Availability
 def can_win(brd, player, move):
     places = []
     x = 0
@@ -64,7 +64,7 @@ def can_win(brd, player, move):
     return win
 
 
-# Making moves on board
+'''# Making moves on board
 def make_move(brd, player, move, undo=False):
     if can_move(brd, player, move):
         brd[move - 1] = player

@@ -64,7 +64,7 @@ def can_win(brd, player, move):
     return win
 
 
-'''# Making moves on board
+# Making moves on board
 def make_move(brd, player, move, undo=False):
     if can_move(brd, player, move):
         brd[move - 1] = player
@@ -99,7 +99,7 @@ def computer_move():
     return make_move(board, computer, move)
 
 
-def space_exist():
+'''def space_exist():
     return board.count('X') + board.count('O') != 9
 
 

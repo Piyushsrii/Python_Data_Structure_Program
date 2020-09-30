@@ -38,14 +38,14 @@ def select_char():
     return chars
 
 
-'''# Checking for the Move
+# Checking for the Move
 def can_move(brd, player, move):
     if move in tab and brd[move - 1] == move - 1:
         return True
     return False
 
 
-# Winning Availability
+'''# Winning Availability
 def can_win(brd, player, move):
     places = []
     x = 0

@@ -99,10 +99,8 @@ def computer_move():
     return make_move(board, computer, move)
 
 
-'''def space_exist():
+def space_exist():
     return board.count('X') + board.count('O') != 9
-
-
 player, computer = select_char()
 print('Player is [%s] and computer is [%s]' % (player, computer))
 result = '-----! Drawn, No Space Left on the board !-----'
@@ -123,4 +121,3 @@ while space_exist():
 
 print_board()
 print(result)
-'''

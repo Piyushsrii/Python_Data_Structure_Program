@@ -24,4 +24,5 @@ if __name__ == "__main__":
     col = int(input("number of cols : "))
     if col <= 0 or col >= 1000:
         print("check the input for row")
-    Array.Array2d(row, col)
+        calling = Array()
+    calling.Array2d(row, col)

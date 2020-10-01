@@ -8,8 +8,8 @@ class GamblerSimulation :
     # gambler function is made for simulating gambling
     def Gambler(amount):
         """
-        :param amount: amount to want to play
-        :return: after player final amount is returned
+            :param amount: amount to want to play
+            :return: after player final amount is returned
         """
     try:
             play = int(input("times u want to play : "))

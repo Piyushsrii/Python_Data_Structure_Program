@@ -3,10 +3,10 @@ class SumValues:
     # sum of three input are checked
     def Sum(num1, num2, num3):
         """
-        :param num1: input of num1 is taken
-        :param num2: input of num2 is taken
-        :param num3: input of num3 is taken
-        :return: sum of all the input is checked is zero or not
+            :param num1: input of num1 is taken
+            :param num2: input of num2 is taken
+            :param num3: input of num3 is taken
+            :return: sum of all the input is checked is zero or not
         """
         if num1 + num2 + num3 == 0:
             print("sum is zero")

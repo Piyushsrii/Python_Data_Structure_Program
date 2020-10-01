@@ -6,10 +6,10 @@ class Quadratic :
     # Quad function is created
     def Quad(num1, num2, num3):
         """
-        :param num1: number 1 taken as input
-        :param num2: number 2 taken as input
-        :param num3: number 3 taken as input
-        :return: after calculating quad results are returned
+            :param num1: number 1 taken as input
+            :param num2: number 2 taken as input
+            :param num3: number 3 taken as input
+            :return: after calculating quad results are returned
         """
         delta = num2 * num2 - 4 * num1 * num3
         # have to convert -ve delta to +ve ,as -ve val does not have square roots

@@ -7,8 +7,8 @@ class CouponsProgram :
     # CoinToss function is created to count number of heads and tails
     def Coupons(number):
         """
-        :param number: no of coupons wants to print
-        :return:
+            :param number: no of coupons wants to print
+            :return:
         """
         array = []  # empty array is used for storing data
         for i in range(number):

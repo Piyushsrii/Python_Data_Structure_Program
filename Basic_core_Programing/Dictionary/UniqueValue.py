@@ -6,6 +6,10 @@ class UniqueDictionary:
 
     # This method printing unique value
     def unique(self, dictSet):
+        """
+                     :param dicSet: this is use for dictionat value
+                     :return: Remove the repeating value
+                     """
         print("Dictionary : ", dictSet)
         uniqueValue = set(val for dic in dictSet for val in dic.values())
         print("Unique Dictionary: ", uniqueValue)

@@ -3,6 +3,10 @@ class IterateSets:
 
     #create a method to iterate  the dict
     def toIterate(self,dictOfNum):
+        """
+         :param dictOfNum: use for iterate set value
+         :return: Remove the repeating value
+        """
         numItrSet = set(dictOfNum)
         for n in numItrSet:
             print(n)

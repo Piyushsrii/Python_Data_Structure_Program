@@ -2,6 +2,8 @@
 the start and end clicks'''
 from datetime import datetime
 class StopWatchProgram() :
+
+    # stopwatch
     def StopWatch(self):
         """
         :return: time in sec is returned if pressed enter

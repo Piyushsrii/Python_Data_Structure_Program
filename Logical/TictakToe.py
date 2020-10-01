@@ -2,20 +2,15 @@
 is the Computer and the Player 2 is the user. Player 1 take Random Cell that is
 the Column and Row.'''
 import random
-
 board = [i for i in range(0, 9)]
 player, computer = '', ''
 
 # Corners, Center and Others, respectively
 moves = ((1, 7, 3, 9), (5,), (2, 4, 6, 8))
-
 # Winner combinations
 winners = ((0, 1, 2), (3, 4, 5), (6, 7, 8), (0, 3, 6), (1, 4, 7), (2, 5, 8), (0, 4, 8), (2, 4, 6))
-
 # Table
 tab = range(1, 10)
-
-
 # Board Logic
 def print_board():
     x = 1
@@ -29,7 +24,6 @@ def print_board():
         x += 1
         print(char, end=end)
 
-
 # Selecting 'X' or 'O' Automatically
 def select_char():
     chars = ('X', 'O')
@@ -37,13 +31,11 @@ def select_char():
         return chars[::-1]
     return chars
 
-
 # Checking for the Move
 def can_move(brd, player, move):
     if move in tab and brd[move - 1] == move - 1:
         return True
     return False
-
 
 # Winning Availability
 def can_win(brd, player, move):
@@ -63,7 +55,6 @@ def can_win(brd, player, move):
             break
     return win
 
-
 # Making moves on board
 def make_move(brd, player, move, undo=False):
     if can_move(brd, player, move):
@@ -73,7 +64,6 @@ def make_move(brd, player, move, undo=False):
             brd[move - 1] = move - 1
         return (True, win)
     return (False, False)
-
 
 # Actual logic
 def computer_move():
@@ -97,7 +87,6 @@ def computer_move():
                     move = mv
                     break
     return make_move(board, computer, move)
-
 
 def space_exist():
     return board.count('X') + board.count('O') != 9

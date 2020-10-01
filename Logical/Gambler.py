@@ -2,7 +2,10 @@
 he/she goes broke (i.e. has no money) or reach $goal. Keeps track of the number of
 times he/she wins and the number of bets he/she makes. Run the experiment N
 times, averages the results, and prints them out.'''
+import numpy as np
 class GamblerSimulation :
+
+    # gambler function is made for simulating gambling
     def Gambler(amount):
         """
         :param amount: amount to want to play

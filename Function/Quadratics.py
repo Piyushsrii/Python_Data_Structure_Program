@@ -2,6 +2,8 @@
 Since the equation is x*x, hence there are 2 roots. The 2 roots of the equation
 can be found using a formula (Note: Take a, b and c as input values)'''
 class Quadratic :
+
+    # Quad function is created
     def Quad(num1, num2, num3):
         """
         :param num1: number 1 taken as input

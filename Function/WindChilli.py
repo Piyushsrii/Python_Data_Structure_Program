@@ -2,7 +2,10 @@
 and v and prints the wind chill. Use Math.pow(a, b) to compute ab. Given the
 temperature t (in Fahrenheit) and the wind speed v (in miles per hour), the
 National Weather Service defines the effective temperature (the wind chill) to be:'''
+import math
 class WindProgram :
+
+    # wind chill function is created to check the input
     def WindChill(temp, velocity):
         """
         :param temp: temp input is taken

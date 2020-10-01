@@ -3,13 +3,14 @@ and y and prints the Euclidean distance from the point (x, y) to the origin (0, 
 formulae to calculate distance = sqrt(x*x + y*y). Use Math.power function'''
 import math
 class Distance:
+
+    # Distance is used for finding distance between 2 points
     def distance(x, y):
         """
     :param x: point 1
     :param y: point 2
     :return:  distance between 2 point
         """
-
         diff = math.sqrt((x ** 2 + y ** 2))
         print(diff)
         # here difference is returned

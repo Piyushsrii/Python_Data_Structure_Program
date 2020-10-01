@@ -1,4 +1,6 @@
 class SumValues:
+
+    # sum of three input are checked
     def Sum(num1, num2, num3):
         """
         :param num1: input of num1 is taken

@@ -3,6 +3,7 @@ standard input and printing them out to standard output.'''
 import numpy as np
 # array function is used to complete the task
 class Array:
+
     # array function is created
     def Array2d(self, row, col):
         """

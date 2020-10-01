@@ -6,6 +6,11 @@ class Dictionar :
 
     # create method for dictionar iteration
     def dictionary(self):
+
+        """
+               :param self: point 1
+               :return: squaring value
+               """
         n=int(input("Input a number "))
         d = dict()
         try:

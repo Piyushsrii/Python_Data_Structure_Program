@@ -15,6 +15,6 @@ try:
         dictOfNum.append(val)
 except ValueError:
     print("enter the correct value")
-        if "__name__"=="__main__":
+    if "__name__"=="__main__":
             setData = IterateSets()
             setData.toIterate(dictOfNum)

@@ -1,4 +1,4 @@
-'''Write a Python program to create a set.'''
+'''Write a Python program to create a set'''
 class CreateSet:
 
     #create method for set

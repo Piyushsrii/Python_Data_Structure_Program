@@ -23,6 +23,7 @@ try :
         SecondSetValue.add(valAddSecond)
         print("Data Set First: ",firstSetValue)
         print("Data Set Second: ",SecondSetValue)
-if __name__=="__main__":
-    setMembers = SetDifference()
-    setMembers.difference(firstSetValue,SecondSetValue)
+except ValueError:
+    if __name__=="__main__":
+        setMembers = SetDifference()
+        setMembers.difference(firstSetValue,SecondSetValue)
